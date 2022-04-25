@@ -4,8 +4,15 @@
     <option name="autoReloadType" value="ALL" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="af676df8-9b88-4e33-add3-e3037e2e5f86" name="Default Changelist" comment="Default Changelist">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="af676df8-9b88-4e33-add3-e3037e2e5f86" name="Default Changelist" comment="第四天完整">
+      <change beforePath="$PROJECT_DIR$/logs/${project.name}_error.log" beforeDir="false" afterPath="$PROJECT_DIR$/logs/${project.name}_error.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/${project.name}_info.log" beforeDir="false" afterPath="$PROJECT_DIR$/logs/${project.name}_info.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/2022-04-22/${project.name}_error.2022-04-22-20.log" beforeDir="false" afterPath="$PROJECT_DIR$/logs/2022-04-22/${project.name}_error.2022-04-22-20.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/2022-04-25/${project.name}_info.2022-04-25-11.log" beforeDir="false" afterPath="$PROJECT_DIR$/logs/2022-04-25/${project.name}_info.2022-04-25-11.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/shanjupay-merchant-application/logs/${project.name}_info.log" beforeDir="false" afterPath="$PROJECT_DIR$/shanjupay-merchant-application/logs/${project.name}_info.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/shanjupay-merchant-application/src/main/java/com/shanjupay/merchant/controller/MerchantController.java" beforeDir="false" afterPath="$PROJECT_DIR$/shanjupay-merchant-application/src/main/java/com/shanjupay/merchant/controller/MerchantController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/shanjupay-merchant-application/src/test/java/com/Test/TokenTemp.java" beforeDir="false" afterPath="$PROJECT_DIR$/shanjupay-merchant-application/src/test/java/com/Test/TokenTemp.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/shanjupay-merchant/shanjupay-merchant-service/src/main/java/com/shanjupay/merchant/mapper/MerchantMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/shanjupay-merchant/shanjupay-merchant-service/src/main/java/com/shanjupay/merchant/mapper/MerchantMapper.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -83,7 +90,9 @@
     <option name="height" value="877" />
   </component>
   <component name="ProjectId" id="288vd6by0Y8646NQAI7Z5C46e6C" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="1" id="Add" />
+  </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
@@ -250,12 +259,12 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.QiniuUtils" />
       <item itemvalue="JUnit.TokenTemp.createTestToken" />
       <item itemvalue="JUnit.TokenTemp" />
       <item itemvalue="Spring Boot.SailingBootstrap（发送手机验证码）" />
       <item itemvalue="Spring Boot.MerchantApplicationBootstrap" />
       <item itemvalue="Spring Boot.MerchantBootstrap" />
+      <item itemvalue="应用程序.QiniuUtils" />
     </list>
     <recent_temporary>
       <list>
@@ -312,7 +321,14 @@
       <option name="project" value="LOCAL" />
       <updated>1650888251291</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="第四天完整">
+      <created>1650901545574</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1650901545574</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
@@ -368,13 +384,15 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
     <ignored-roots>
       <path value="$PROJECT_DIR$/../../../../.." />
     </ignored-roots>
     <MESSAGE value="Default Changelist" />
-    <option name="LAST_COMMIT_MESSAGE" value="Default Changelist" />
+    <MESSAGE value="第四天完整" />
+    <option name="LAST_COMMIT_MESSAGE" value="第四天完整" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
