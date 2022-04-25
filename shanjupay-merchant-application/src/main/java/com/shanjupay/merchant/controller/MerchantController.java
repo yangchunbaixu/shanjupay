@@ -7,6 +7,7 @@ import com.shanjupay.common.util.StringUtil;
 import com.shanjupay.merchant.VO.MerchantDetailVO;
 import com.shanjupay.merchant.VO.MerchantRegisterVO;
 import com.shanjupay.merchant.api.MerchantService;
+import com.shanjupay.merchant.api.dto.AppDTO;
 import com.shanjupay.merchant.api.dto.MerchantDTO;
 import com.shanjupay.merchant.common.utils.SecurityUtil;
 import com.shanjupay.merchant.convert.MerchantDetailConvert;
@@ -23,6 +24,7 @@ import org.springframework.web.multipart.MultipartFile;
 
 import java.io.IOException;
 import java.nio.charset.StandardCharsets;
+import java.util.List;
 import java.util.UUID;
 
 @RestController
@@ -42,8 +44,7 @@ public class MerchantController {
     @GetMapping("/merchants/{id}")
     @ApiOperation(value = "根据id查询商户", tags = "根据id查询商户")
     public MerchantDTO queryMerchantById(@PathVariable("id") Long id) {
-        MerchantDTO merchantDTO = merchantService.queryMerchantById(id);
-        return merchantDTO;
+        return merchantService.queryMerchantById(id);
     }
 
     @ApiOperation(value = "获取手机验证码")
@@ -53,15 +54,13 @@ public class MerchantController {
         log.info("向手机号:{}发送验证码", phone);
         return smsService.sendMsg(phone);
     }
-
-    @ApiOperation(value = "商户注册")
     /**
      *    value : 中文名，随便定
      *    name : 参数的形参名称
      *    required : 是否必填
      *    dataType : 数据类型
      */
-
+    @ApiOperation(value = "商户注册")
     @ApiImplicitParam(value = "商户注册信息", name = "merchantRegisterVO", required = true, dataType = "merchantRegisterVO")
     @PostMapping("/merchant/register")
     public MerchantRegisterVO RegisterMerchant(@RequestBody MerchantRegisterVO merchantRegisterVO) {
@@ -98,10 +97,16 @@ public class MerchantController {
         //  原始文件名
         String originalFilename = file.getOriginalFilename();
         // 文件后缀
-        String suffix = originalFilename.substring(originalFilename.lastIndexOf(".") - 1);
+        String suffix ;
+        if(originalFilename == null){
+             suffix = ".jpg";
+        }
+        else{
+             suffix = originalFilename.substring(originalFilename.lastIndexOf(".") - 1);
+        }
         // 文件名称
         // 为保证不重名，则用UUID命名
-        String fileName = UUID.randomUUID().toString() + suffix;
+        String fileName = UUID.randomUUID() + suffix;
         // 上传文件，返回文件下载url
         String fileUrl = null;
         try {
@@ -131,6 +136,6 @@ public class MerchantController {
         MerchantDTO merchantDTO = MerchantDetailConvert.INSTANCE.vo2dto(merchantDetailVO);
 
         merchantService.applyMerchant(merchantId,merchantDTO);
-
     }
+
 }
