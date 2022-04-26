@@ -97,13 +97,10 @@ public class MerchantController {
         //  原始文件名
         String originalFilename = file.getOriginalFilename();
         // 文件后缀
-        String suffix ;
         if(originalFilename == null){
-             suffix = ".jpg";
+             throw new BusinessException(CommonErrorCode.E_100117);
         }
-        else{
-             suffix = originalFilename.substring(originalFilename.lastIndexOf(".") - 1);
-        }
+        String  suffix = originalFilename.substring(originalFilename.lastIndexOf(".") - 1);
         // 文件名称
         // 为保证不重名，则用UUID命名
         String fileName = UUID.randomUUID() + suffix;

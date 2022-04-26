@@ -7,7 +7,7 @@ import lombok.Data;
 import java.io.Serializable;
 
 @Data
-@ApiModel(value="AppDTO", description="")
+@ApiModel(value="AppDTO", description="应用信息")
 public class AppDTO implements Serializable {
 
     private static final long serialVersionUID = 1L;

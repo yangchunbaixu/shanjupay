@@ -9,10 +9,12 @@
         <outputRelativeToContentRoot value="true" />
         <module name="shanjupay-merchant-api" />
         <module name="shanjupay-merchant-service" />
-        <module name="shanjupay-merchant-application" />
+        <module name="shanjupay-transaction-api" />
         <module name="shanjupay-common" />
         <module name="shanjupay-merchant" />
+        <module name="shanjupay-merchant-application" />
         <module name="sailing" />
+        <module name="shanjupay-transaction-service" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
@@ -25,6 +27,9 @@
       <module name="shanjupay-merchant-api" target="1.8" />
       <module name="shanjupay-merchant-application" target="1.8" />
       <module name="shanjupay-merchant-service" target="1.8" />
+      <module name="shanjupay-transaction" target="1.8" />
+      <module name="shanjupay-transaction-api" target="1.8" />
+      <module name="shanjupay-transaction-service" target="1.8" />
     </bytecodeTargetLevel>
   </component>
   <component name="JavacSettings">
@@ -36,6 +41,8 @@
       <module name="shanjupay-merchant-api" options="-parameters" />
       <module name="shanjupay-merchant-application" options="-parameters" />
       <module name="shanjupay-merchant-service" options="-parameters" />
+      <module name="shanjupay-transaction-api" options="-parameters -bootclasspath $PROJECT_DIR$/../../../Java/jdk/jre/lib/rt.jar;$PROJECT_DIR$/../../../Java/jdk/jre/lib/jce.jar" />
+      <module name="shanjupay-transaction-service" options="-parameters" />
     </option>
   </component>
 </project>

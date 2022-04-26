@@ -5,14 +5,26 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="af676df8-9b88-4e33-add3-e3037e2e5f86" name="Default Changelist" comment="第四天完整">
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/logs/${project.name}_error.log" beforeDir="false" afterPath="$PROJECT_DIR$/logs/${project.name}_error.log" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/logs/${project.name}_info.log" beforeDir="false" afterPath="$PROJECT_DIR$/logs/${project.name}_info.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/logs/2022-04-22/${project.name}_error.2022-04-22-20.log" beforeDir="false" afterPath="$PROJECT_DIR$/logs/2022-04-22/${project.name}_error.2022-04-22-20.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/logs/2022-04-25/${project.name}_info.2022-04-25-11.log" beforeDir="false" afterPath="$PROJECT_DIR$/logs/2022-04-25/${project.name}_info.2022-04-25-11.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/shanjupay-merchant-application/logs/${project.name}_info.log" beforeDir="false" afterPath="$PROJECT_DIR$/shanjupay-merchant-application/logs/${project.name}_info.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/2022-04-25/${project.name}_info.2022-04-25-22.log" beforeDir="false" afterPath="$PROJECT_DIR$/logs/2022-04-25/${project.name}_info.2022-04-25-22.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/shanjupay-common/src/main/java/com/shanjupay/common/domain/CommonErrorCode.java" beforeDir="false" afterPath="$PROJECT_DIR$/shanjupay-common/src/main/java/com/shanjupay/common/domain/CommonErrorCode.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/shanjupay-common/target/classes/com/shanjupay/common/domain/CommonErrorCode.class" beforeDir="false" afterPath="$PROJECT_DIR$/shanjupay-common/target/classes/com/shanjupay/common/domain/CommonErrorCode.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/shanjupay-merchant-application/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/shanjupay-merchant-application/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/shanjupay-merchant-application/shanjupay-merchant-application.iml" beforeDir="false" afterPath="$PROJECT_DIR$/shanjupay-merchant-application/shanjupay-merchant-application.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/shanjupay-merchant-application/src/main/java/com/shanjupay/merchant/controller/MerchantController.java" beforeDir="false" afterPath="$PROJECT_DIR$/shanjupay-merchant-application/src/main/java/com/shanjupay/merchant/controller/MerchantController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/shanjupay-merchant-application/src/test/java/com/Test/TokenTemp.java" beforeDir="false" afterPath="$PROJECT_DIR$/shanjupay-merchant-application/src/test/java/com/Test/TokenTemp.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/shanjupay-merchant/shanjupay-merchant-service/src/main/java/com/shanjupay/merchant/mapper/MerchantMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/shanjupay-merchant/shanjupay-merchant-service/src/main/java/com/shanjupay/merchant/mapper/MerchantMapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/shanjupay-merchant-application/target/classes/com/shanjupay/merchant/controller/AppController.class" beforeDir="false" afterPath="$PROJECT_DIR$/shanjupay-merchant-application/target/classes/com/shanjupay/merchant/controller/AppController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/shanjupay-merchant-application/target/classes/com/shanjupay/merchant/controller/MerchantController.class" beforeDir="false" afterPath="$PROJECT_DIR$/shanjupay-merchant-application/target/classes/com/shanjupay/merchant/controller/MerchantController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/shanjupay-merchant-application/target/generated-sources/annotations/com/shanjupay/merchant/convert/MerchantDetailConvertImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/shanjupay-merchant-application/target/generated-sources/annotations/com/shanjupay/merchant/convert/MerchantDetailConvertImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/shanjupay-merchant-application/target/generated-sources/annotations/com/shanjupay/merchant/convert/MerchantRegisterConvertImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/shanjupay-merchant-application/target/generated-sources/annotations/com/shanjupay/merchant/convert/MerchantRegisterConvertImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/shanjupay-merchant/shanjupay-merchant-api/src/main/java/com/shanjupay/merchant/api/dto/AppDTO.java" beforeDir="false" afterPath="$PROJECT_DIR$/shanjupay-merchant/shanjupay-merchant-api/src/main/java/com/shanjupay/merchant/api/dto/AppDTO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/shanjupay-merchant/shanjupay-merchant-api/target/classes/com/shanjupay/merchant/api/dto/AppDTO.class" beforeDir="false" afterPath="$PROJECT_DIR$/shanjupay-merchant/shanjupay-merchant-api/target/classes/com/shanjupay/merchant/api/dto/AppDTO.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/shanjupay-merchant/shanjupay-merchant-service/target/classes/com/shanjupay/merchant/service/AppServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/shanjupay-merchant/shanjupay-merchant-service/target/classes/com/shanjupay/merchant/service/AppServiceImpl.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -25,8 +37,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Class" />
         <option value="Interface" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -127,6 +139,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="DatabaseDriversLRU" value="mysql" />
     <property name="RequestMappingsPanelOrder0" value="0" />
     <property name="RequestMappingsPanelOrder1" value="1" />
     <property name="RequestMappingsPanelWidth0" value="75" />
@@ -136,7 +149,7 @@
     <property name="aspect.path.notification.shown" value="true" />
     <property name="full.screen.before.presentation.mode" value="false" />
     <property name="last_directory_selection" value="$PROJECT_DIR$/shanjupay-merchant-application/src/main/java/com/shanjupay/merchant" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/shanjupay-merchant-application/src/main/java/com/shanjupay/merchant/common/utils" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/shanjupay-common/src/main/java/com/shanjupay/common/util" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
@@ -148,16 +161,19 @@
     <property name="project.structure.side.proportion" value="0.26467758" />
     <property name="restartRequiresConfirmation" value="false" />
     <property name="service.view.auto.scroll.to.source" value="true" />
-    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
     <property name="vue.rearranger.settings.migration" value="true" />
+  </component>
+  <component name="ReactorSettings">
+    <option name="notificationShown" value="true" />
   </component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
       <recent name="com.shanjupay.common.domain" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="E:\Learning_program\Spring_Case\shanjupay\shanjupay-merchant-application\src\main\java\com\shanjupay\merchant\common\utils" />
       <recent name="E:\Learning_program\Spring_Case\shanjupay\shanjupay-common\src\main\java\com\shanjupay\common\util" />
+      <recent name="E:\Learning_program\Spring_Case\shanjupay\shanjupay-merchant-application\src\main\java\com\shanjupay\merchant\common\utils" />
       <recent name="E:\Learning_program\Spring_Case\shanjupay\shanjupay-merchant-application\src\test\java\com\Test" />
       <recent name="E:\Learning_program\Spring_Case\shanjupay\shanjupay-merchant\shanjupay-merchant-api\src\main\java\com\shanjupay\merchant\api\dto" />
       <recent name="E:\Learning_program\Spring_Case\shanjupay" />
@@ -165,6 +181,9 @@
     <key name="MoveFile.RECENT_KEYS">
       <recent name="E:\Learning_program\Spring_Case\shanjupay\shanjupay-merchant\shanjupay-merchant-service\src\main\resources" />
       <recent name="E:\Learning_program\Spring_Case\shanjupay" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.shanjupay.transaction.common.util" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -174,31 +193,45 @@
       </set>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.TokenTemp.createTestToken">
-    <configuration name="QiniuUtils" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.shanjupay.common.util.QiniuUtils" />
-      <module name="shanjupay-common" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.shanjupay.common.util.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
+  <component name="RunManager" selected="Spring Boot.TransactionBootstrap（商户交易dubbo接口）">
+    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
+      <option name="arquillianRunConfiguration">
+        <value>
+          <option name="containerStateName" value="" />
+        </value>
+      </option>
+      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TokenTemp" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="shanjupay-merchant-application" />
+    <configuration name="TestMapper" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="shanjupay-transaction-service" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.Test.*" />
+          <option name="PATTERN" value="com.shanjupay.transaction.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="com.Test" />
-      <option name="MAIN_CLASS_NAME" value="com.Test.TokenTemp" />
+      <option name="PACKAGE_NAME" value="com.shanjupay.transaction" />
+      <option name="MAIN_CLASS_NAME" value="com.shanjupay.transaction.TestMapper" />
       <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestMapper.test1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="shanjupay-transaction-service" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.shanjupay.transaction.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.shanjupay.transaction" />
+      <option name="MAIN_CLASS_NAME" value="com.shanjupay.transaction.TestMapper" />
+      <option name="METHOD_NAME" value="test1" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -219,7 +252,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MerchantApplicationBootstrap" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+    <configuration name="MerchantApplicationBootstrap（商户服务调用接口）" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true">
       <module name="shanjupay-merchant-application" />
       <extension name="coverage">
         <pattern>
@@ -234,7 +267,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MerchantBootstrap" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+    <configuration name="MerchantBootstrap（商户服务dubbo接口）" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true">
       <module name="shanjupay-merchant-service" />
       <extension name="coverage">
         <pattern>
@@ -258,20 +291,31 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="TransactionBootstrap（商户交易dubbo接口）" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="shanjupay-transaction-service" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.shanjupay.transaction.TransactionBootstrap" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="SHORTEN_COMMAND_LINE" value="NONE" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <list>
       <item itemvalue="JUnit.TokenTemp.createTestToken" />
-      <item itemvalue="JUnit.TokenTemp" />
+      <item itemvalue="JUnit.TestMapper" />
+      <item itemvalue="JUnit.TestMapper.test1" />
       <item itemvalue="Spring Boot.SailingBootstrap（发送手机验证码）" />
-      <item itemvalue="Spring Boot.MerchantApplicationBootstrap" />
-      <item itemvalue="Spring Boot.MerchantBootstrap" />
-      <item itemvalue="应用程序.QiniuUtils" />
+      <item itemvalue="Spring Boot.TransactionBootstrap（商户交易dubbo接口）" />
+      <item itemvalue="Spring Boot.MerchantBootstrap（商户服务dubbo接口）" />
+      <item itemvalue="Spring Boot.MerchantApplicationBootstrap（商户服务调用接口）" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Spring Boot.MerchantApplicationBootstrap（商户服务调用接口）" />
+        <item itemvalue="Spring Boot.MerchantBootstrap（商户服务dubbo接口）" />
+        <item itemvalue="JUnit.TestMapper.test1" />
+        <item itemvalue="JUnit.TestMapper" />
         <item itemvalue="JUnit.TokenTemp.createTestToken" />
-        <item itemvalue="Spring Boot.MerchantApplicationBootstrap" />
-        <item itemvalue="JUnit.TokenTemp" />
-        <item itemvalue="Spring Boot.MerchantBootstrap" />
       </list>
     </recent_temporary>
   </component>
@@ -299,6 +343,8 @@
       <workItem from="1650764679525" duration="20577000" />
       <workItem from="1650846880320" duration="7257000" />
       <workItem from="1650854410558" duration="13002000" />
+      <workItem from="1650933706674" duration="21373000" />
+      <workItem from="1650980219063" duration="391000" />
     </task>
     <task id="LOCAL-00001" summary="Default Changelist">
       <created>1650878197660</created>
@@ -328,7 +374,14 @@
       <option name="project" value="LOCAL" />
       <updated>1650901545574</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="第四天完整">
+      <created>1650901859680</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1650901859680</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
@@ -393,17 +446,6 @@
     <MESSAGE value="Default Changelist" />
     <MESSAGE value="第四天完整" />
     <option name="LAST_COMMIT_MESSAGE" value="第四天完整" />
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/shanjupay-merchant/shanjupay-merchant-service/src/main/java/com/shanjupay/merchant/service/MerchantServiceImpl.java</url>
-          <line>99</line>
-          <option name="timeStamp" value="5" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
