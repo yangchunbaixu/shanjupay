@@ -4,27 +4,8 @@
     <option name="autoReloadType" value="ALL" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="af676df8-9b88-4e33-add3-e3037e2e5f86" name="Default Changelist" comment="第四天完整">
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/logs/${project.name}_error.log" beforeDir="false" afterPath="$PROJECT_DIR$/logs/${project.name}_error.log" afterDir="false" />
+    <list default="true" id="af676df8-9b88-4e33-add3-e3037e2e5f86" name="Default Changelist" comment="第五天 支付参数完整">
       <change beforePath="$PROJECT_DIR$/logs/${project.name}_info.log" beforeDir="false" afterPath="$PROJECT_DIR$/logs/${project.name}_info.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/logs/2022-04-25/${project.name}_info.2022-04-25-22.log" beforeDir="false" afterPath="$PROJECT_DIR$/logs/2022-04-25/${project.name}_info.2022-04-25-22.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/shanjupay-common/src/main/java/com/shanjupay/common/domain/CommonErrorCode.java" beforeDir="false" afterPath="$PROJECT_DIR$/shanjupay-common/src/main/java/com/shanjupay/common/domain/CommonErrorCode.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/shanjupay-common/target/classes/com/shanjupay/common/domain/CommonErrorCode.class" beforeDir="false" afterPath="$PROJECT_DIR$/shanjupay-common/target/classes/com/shanjupay/common/domain/CommonErrorCode.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/shanjupay-merchant-application/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/shanjupay-merchant-application/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/shanjupay-merchant-application/shanjupay-merchant-application.iml" beforeDir="false" afterPath="$PROJECT_DIR$/shanjupay-merchant-application/shanjupay-merchant-application.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/shanjupay-merchant-application/src/main/java/com/shanjupay/merchant/controller/MerchantController.java" beforeDir="false" afterPath="$PROJECT_DIR$/shanjupay-merchant-application/src/main/java/com/shanjupay/merchant/controller/MerchantController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/shanjupay-merchant-application/target/classes/com/shanjupay/merchant/controller/AppController.class" beforeDir="false" afterPath="$PROJECT_DIR$/shanjupay-merchant-application/target/classes/com/shanjupay/merchant/controller/AppController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/shanjupay-merchant-application/target/classes/com/shanjupay/merchant/controller/MerchantController.class" beforeDir="false" afterPath="$PROJECT_DIR$/shanjupay-merchant-application/target/classes/com/shanjupay/merchant/controller/MerchantController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/shanjupay-merchant-application/target/generated-sources/annotations/com/shanjupay/merchant/convert/MerchantDetailConvertImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/shanjupay-merchant-application/target/generated-sources/annotations/com/shanjupay/merchant/convert/MerchantDetailConvertImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/shanjupay-merchant-application/target/generated-sources/annotations/com/shanjupay/merchant/convert/MerchantRegisterConvertImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/shanjupay-merchant-application/target/generated-sources/annotations/com/shanjupay/merchant/convert/MerchantRegisterConvertImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/shanjupay-merchant/shanjupay-merchant-api/src/main/java/com/shanjupay/merchant/api/dto/AppDTO.java" beforeDir="false" afterPath="$PROJECT_DIR$/shanjupay-merchant/shanjupay-merchant-api/src/main/java/com/shanjupay/merchant/api/dto/AppDTO.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/shanjupay-merchant/shanjupay-merchant-api/target/classes/com/shanjupay/merchant/api/dto/AppDTO.class" beforeDir="false" afterPath="$PROJECT_DIR$/shanjupay-merchant/shanjupay-merchant-api/target/classes/com/shanjupay/merchant/api/dto/AppDTO.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/shanjupay-merchant/shanjupay-merchant-service/target/classes/com/shanjupay/merchant/service/AppServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/shanjupay-merchant/shanjupay-merchant-service/target/classes/com/shanjupay/merchant/service/AppServiceImpl.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -344,7 +325,7 @@
       <workItem from="1650846880320" duration="7257000" />
       <workItem from="1650854410558" duration="13002000" />
       <workItem from="1650933706674" duration="21373000" />
-      <workItem from="1650980219063" duration="391000" />
+      <workItem from="1650980219063" duration="869000" />
     </task>
     <task id="LOCAL-00001" summary="Default Changelist">
       <created>1650878197660</created>
@@ -381,7 +362,21 @@
       <option name="project" value="LOCAL" />
       <updated>1650901859680</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="第五天 支付参数完整">
+      <created>1650980827668</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1650980827668</updated>
+    </task>
+    <task id="LOCAL-00007" summary="第五天 支付参数完整">
+      <created>1650981043450</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1650981043450</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
@@ -445,7 +440,8 @@
     </ignored-roots>
     <MESSAGE value="Default Changelist" />
     <MESSAGE value="第四天完整" />
-    <option name="LAST_COMMIT_MESSAGE" value="第四天完整" />
+    <MESSAGE value="第五天 支付参数完整" />
+    <option name="LAST_COMMIT_MESSAGE" value="第五天 支付参数完整" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
